@@ -50,9 +50,9 @@ class DetallesMateria : UIViewController {
                 imgCheck.image = UIImage(named: materia!.check)
                 checked = materia!.asistencia
                 if checked {
-                    imgCheck.image = UIImage(named: "check1")
+                    imgCheck.image = UIImage(named: "check")
                 } else {
-                    imgCheck.image = UIImage(named: "check2")
+                    imgCheck.image = UIImage(named: "checkno")
                 }
                 imgRate1.image = UIImage(named: materia!.rate1)
                 imgRate2.image = UIImage(named: materia!.rate2)
@@ -61,41 +61,41 @@ class DetallesMateria : UIViewController {
                 imgRate5.image = UIImage(named: materia!.rate5)
                 evaluacion = materia!.evaluacion
                 if evaluacion == 0 {
-                    imgRate1.image = UIImage(named: "enojado2")
-                    imgRate2.image = UIImage(named: "triste2")
-                    imgRate3.image = UIImage(named: "maso2")
-                    imgRate4.image = UIImage(named: "feli2")
-                    imgRate5.image = UIImage(named: "feliz2")
+                    imgRate1.image = UIImage(named: "muymal2")
+                    imgRate2.image = UIImage(named: "mal2")
+                    imgRate3.image = UIImage(named: "medio2")
+                    imgRate4.image = UIImage(named: "bien2")
+                    imgRate5.image = UIImage(named: "muybien2")
                 } else if evaluacion == 1 {
-                    imgRate1.image = UIImage(named: "enojado")
-                    imgRate2.image = UIImage(named: "triste2")
-                    imgRate3.image = UIImage(named: "maso2")
-                    imgRate4.image = UIImage(named: "feli2")
-                    imgRate5.image = UIImage(named: "feliz2")
+                    imgRate1.image = UIImage(named: "muymal")
+                    imgRate2.image = UIImage(named: "mal2")
+                    imgRate3.image = UIImage(named: "medio2")
+                    imgRate4.image = UIImage(named: "bien2")
+                    imgRate5.image = UIImage(named: "muybien2")
                 } else if evaluacion == 2 {
-                    imgRate1.image = UIImage(named: "enojado2")
-                    imgRate2.image = UIImage(named: "triste")
-                    imgRate3.image = UIImage(named: "maso2")
-                    imgRate4.image = UIImage(named: "feli2")
-                    imgRate5.image = UIImage(named: "feliz2")
+                    imgRate1.image = UIImage(named: "muymal2")
+                    imgRate2.image = UIImage(named: "mal")
+                    imgRate3.image = UIImage(named: "medio2")
+                    imgRate4.image = UIImage(named: "bien2")
+                    imgRate5.image = UIImage(named: "muybien2")
                 } else if evaluacion == 3 {
-                    imgRate1.image = UIImage(named: "enojado2")
-                    imgRate2.image = UIImage(named: "triste2")
-                    imgRate3.image = UIImage(named: "maso")
-                    imgRate4.image = UIImage(named: "feli2")
-                    imgRate5.image = UIImage(named: "feliz2")
+                    imgRate1.image = UIImage(named: "muymal2")
+                    imgRate2.image = UIImage(named: "mal2")
+                    imgRate3.image = UIImage(named: "medio")
+                    imgRate4.image = UIImage(named: "bien2")
+                    imgRate5.image = UIImage(named: "muybien2")
                 } else if evaluacion == 4 {
-                    imgRate1.image = UIImage(named: "enojado2")
-                    imgRate2.image = UIImage(named: "triste2")
+                    imgRate1.image = UIImage(named: "mal2")
+                    imgRate2.image = UIImage(named: "mal2")
                     imgRate3.image = UIImage(named: "maso2")
-                    imgRate4.image = UIImage(named: "feli")
-                    imgRate5.image = UIImage(named: "feliz2")
+                    imgRate4.image = UIImage(named: "bien")
+                    imgRate5.image = UIImage(named: "muybien2")
                 } else if evaluacion == 5 {
-                    imgRate1.image = UIImage(named: "enojado2")
-                    imgRate2.image = UIImage(named: "triste2")
-                    imgRate3.image = UIImage(named: "maso2")
-                    imgRate4.image = UIImage(named: "feli2")
-                    imgRate5.image = UIImage(named: "feliz")
+                    imgRate1.image = UIImage(named: "muymal2")
+                    imgRate2.image = UIImage(named: "mal2")
+                    imgRate3.image = UIImage(named: "medio2")
+                    imgRate4.image = UIImage(named: "bien2")
+                    imgRate5.image = UIImage(named: "muybien")
                 }
                 
                 
@@ -112,56 +112,56 @@ class DetallesMateria : UIViewController {
     @IBAction func doTapCheck(_ sender: Any) {
         checked = true
         materia?.asistencia = checked
-        imgCheck.image = UIImage(named: "check1")
+        imgCheck.image = UIImage(named: "check")
     }
     
     @IBAction func doTapRate1(_ sender: Any) {
         evaluacion = 1
         materia?.evaluacion = 1
-        imgRate1.image = UIImage(named: "enojado")
-        imgRate2.image = UIImage(named: "triste2")
-        imgRate3.image = UIImage(named: "maso2")
-        imgRate4.image = UIImage(named: "feli2")
-        imgRate5.image = UIImage(named: "feliz2")
+        imgRate1.image = UIImage(named: "muymal")
+        imgRate2.image = UIImage(named: "mal2")
+        imgRate3.image = UIImage(named: "medio2")
+        imgRate4.image = UIImage(named: "bien2")
+        imgRate5.image = UIImage(named: "muybien2")
     }
     
     @IBAction func doTapRate2(_ sender: Any) {
         evaluacion = 2
         materia?.evaluacion = 2
-        imgRate1.image = UIImage(named: "enojado2")
-        imgRate2.image = UIImage(named: "triste")
-        imgRate3.image = UIImage(named: "maso2")
-        imgRate4.image = UIImage(named: "feli2")
-        imgRate5.image = UIImage(named: "feliz2")
+        imgRate1.image = UIImage(named: "muymal2")
+        imgRate2.image = UIImage(named: "mal")
+        imgRate3.image = UIImage(named: "medio2")
+        imgRate4.image = UIImage(named: "bien2")
+        imgRate5.image = UIImage(named: "muybien2")
     }
     
     @IBAction func doTapRate3(_ sender: Any) {
         evaluacion = 3
         materia?.evaluacion = 3
-        imgRate1.image = UIImage(named: "enojado2")
-        imgRate2.image = UIImage(named: "triste2")
-        imgRate3.image = UIImage(named: "maso")
-        imgRate4.image = UIImage(named: "feli2")
-        imgRate5.image = UIImage(named: "feliz2")
+        imgRate1.image = UIImage(named: "muymal2")
+        imgRate2.image = UIImage(named: "mal2")
+        imgRate3.image = UIImage(named: "medio")
+        imgRate4.image = UIImage(named: "bien2")
+        imgRate5.image = UIImage(named: "muybien2")
     }
     
     @IBAction func doTapRate4(_ sender: Any) {
         evaluacion = 4
         materia?.evaluacion = 4
-        imgRate1.image = UIImage(named: "enojado2")
-        imgRate2.image = UIImage(named: "triste2")
-        imgRate3.image = UIImage(named: "maso2")
-        imgRate4.image = UIImage(named: "feli")
-        imgRate5.image = UIImage(named: "feliz2")
+        imgRate1.image = UIImage(named: "muymal2")
+        imgRate2.image = UIImage(named: "mal2")
+        imgRate3.image = UIImage(named: "medio2")
+        imgRate4.image = UIImage(named: "bien")
+        imgRate5.image = UIImage(named: "muybien2")
     }
     
     @IBAction func doTapRate5(_ sender: Any) {
         evaluacion = 5
         materia?.evaluacion = 5
-        imgRate1.image = UIImage(named: "enojado2")
-        imgRate2.image = UIImage(named: "triste2")
-        imgRate3.image = UIImage(named: "maso2")
-        imgRate4.image = UIImage(named: "feli2")
-        imgRate5.image = UIImage(named: "feliz")
+        imgRate1.image = UIImage(named: "muymal2")
+        imgRate2.image = UIImage(named: "mal2")
+        imgRate3.image = UIImage(named: "medio2")
+        imgRate4.image = UIImage(named: "bien2")
+        imgRate5.image = UIImage(named: "muybien")
     }
 }
