@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB2850F62923E5B00039FA5E /* Montserrat-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB2850F42923E5B00039FA5E /* Montserrat-Italic-VariableFont_wght.ttf */; };
+		FB2850F72923E5B00039FA5E /* Montserrat-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB2850F52923E5B00039FA5E /* Montserrat-VariableFont_wght.ttf */; };
+		FB2851062923E5C00039FA5E /* MADE TOMMY Black_PERSONAL USE.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB2850F82923E5C00039FA5E /* MADE TOMMY Black_PERSONAL USE.otf */; };
+		FB2851072923E5C00039FA5E /* MADE TOMMY ExtraBold Outline_PERSONAL USE.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB2850F92923E5C00039FA5E /* MADE TOMMY ExtraBold Outline_PERSONAL USE.otf */; };
+		FB2851082923E5C00039FA5E /* MADE TOMMY Thin Outline_PERSONAL USE.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB2850FA2923E5C00039FA5E /* MADE TOMMY Thin Outline_PERSONAL USE.otf */; };
+		FB2851092923E5C00039FA5E /* MADE TOMMY Bold_PERSONAL USE.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB2850FB2923E5C00039FA5E /* MADE TOMMY Bold_PERSONAL USE.otf */; };
+		FB28510A2923E5C00039FA5E /* MADE TOMMY Thin_PERSONAL USE.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB2850FC2923E5C00039FA5E /* MADE TOMMY Thin_PERSONAL USE.otf */; };
+		FB28510B2923E5C00039FA5E /* MADE TOMMY Medium_PERSONAL USE.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB2850FD2923E5C00039FA5E /* MADE TOMMY Medium_PERSONAL USE.otf */; };
+		FB28510C2923E5C00039FA5E /* MADE TOMMY ExtraBold_PERSONAL USE.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB2850FE2923E5C00039FA5E /* MADE TOMMY ExtraBold_PERSONAL USE.otf */; };
+		FB28510D2923E5C00039FA5E /* MADE TOMMY Medium Outline_PERSONAL USE.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB2850FF2923E5C00039FA5E /* MADE TOMMY Medium Outline_PERSONAL USE.otf */; };
+		FB28510E2923E5C00039FA5E /* MADE TOMMY Black Outline_PERSONAL USE.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB2851002923E5C00039FA5E /* MADE TOMMY Black Outline_PERSONAL USE.otf */; };
+		FB28510F2923E5C00039FA5E /* MADE TOMMY Bold Outline_PERSONAL USE.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB2851012923E5C00039FA5E /* MADE TOMMY Bold Outline_PERSONAL USE.otf */; };
+		FB2851102923E5C00039FA5E /* MADE TOMMY Regular_PERSONAL USE.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB2851022923E5C00039FA5E /* MADE TOMMY Regular_PERSONAL USE.otf */; };
+		FB2851112923E5C00039FA5E /* MADE TOMMY Light Outline_PERSONAL USE.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB2851032923E5C00039FA5E /* MADE TOMMY Light Outline_PERSONAL USE.otf */; };
+		FB2851122923E5C00039FA5E /* MADE TOMMY Regular Outline_PERSONAL USE.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB2851042923E5C00039FA5E /* MADE TOMMY Regular Outline_PERSONAL USE.otf */; };
+		FB2851132923E5C00039FA5E /* MADE TOMMY Light_PERSONAL USE.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB2851052923E5C00039FA5E /* MADE TOMMY Light_PERSONAL USE.otf */; };
+		FB3827F82925361A00CF2C6A /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3827EA292527A600CF2C6A /* Montserrat-Black.ttf */; };
+		FB3827F92925361F00CF2C6A /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3827EC292527A600CF2C6A /* Montserrat-SemiBold.ttf */; };
+		FB3827FA2925361F00CF2C6A /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3827EF292527A600CF2C6A /* Montserrat-Bold.ttf */; };
+		FB3827FB2925361F00CF2C6A /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3827F5292527A600CF2C6A /* Montserrat-Medium.ttf */; };
+		FB3827FC2925361F00CF2C6A /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3827E8292527A600CF2C6A /* Montserrat-LightItalic.ttf */; };
+		FB3827FD2925361F00CF2C6A /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3827F4292527A600CF2C6A /* Montserrat-ExtraBold.ttf */; };
+		FB3827FE2925361F00CF2C6A /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3827E6292527A600CF2C6A /* Montserrat-ExtraLight.ttf */; };
+		FB3827FF2925361F00CF2C6A /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3827EB292527A600CF2C6A /* Montserrat-ExtraLightItalic.ttf */; };
+		FB3828002925361F00CF2C6A /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3827F1292527A600CF2C6A /* Montserrat-ThinItalic.ttf */; };
+		FB3828012925361F00CF2C6A /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3827EE292527A600CF2C6A /* Montserrat-ExtraBoldItalic.ttf */; };
+		FB3828022925361F00CF2C6A /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3827F0292527A600CF2C6A /* Montserrat-MediumItalic.ttf */; };
+		FB3828032925361F00CF2C6A /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3827F6292527A600CF2C6A /* Montserrat-BlackItalic.ttf */; };
+		FB3828042925361F00CF2C6A /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3827ED292527A600CF2C6A /* Montserrat-BoldItalic.ttf */; };
+		FB3828052925361F00CF2C6A /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3827F2292527A600CF2C6A /* Montserrat-Thin.ttf */; };
+		FB3828062925361F00CF2C6A /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3827F3292527A600CF2C6A /* Montserrat-Light.ttf */; };
+		FB3828072925361F00CF2C6A /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3827E7292527A600CF2C6A /* Montserrat-SemiBoldItalic.ttf */; };
+		FB3828082925361F00CF2C6A /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3827E9292527A600CF2C6A /* Montserrat-Regular.ttf */; };
+		FB3828092925361F00CF2C6A /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3827F7292527A600CF2C6A /* Montserrat-Italic.ttf */; };
+		FB72228A291A9CAC00392E50 /* Comida.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB722289291A9CAC00392E50 /* Comida.swift */; };
+		FB72228C291A9CBF00392E50 /* CeldaComidaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB72228B291A9CBF00392E50 /* CeldaComidaController.swift */; };
+		FB72228E291A9F0000392E50 /* ComidaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB72228D291A9F0000392E50 /* ComidaController.swift */; };
+		FB722290291AA79600392E50 /* Pago.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB72228F291AA79600392E50 /* Pago.swift */; };
+		FB722292291AA7A200392E50 /* PagoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB722291291AA7A200392E50 /* PagoController.swift */; };
+		FB722294291AA7BC00392E50 /* CeldaPagoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB722293291AA7BC00392E50 /* CeldaPagoController.swift */; };
+		FB722296291AB7B700392E50 /* DetallesMateria.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB722295291AB7B700392E50 /* DetallesMateria.swift */; };
+		FB7522A92919989500360061 /* Alumno.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7522A82919989500360061 /* Alumno.swift */; };
+		FB7619F929195B34002AE06B /* Contacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7619F829195B34002AE06B /* Contacto.swift */; };
+		FB7619FB29195D61002AE06B /* ContactoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7619FA29195D61002AE06B /* ContactoController.swift */; };
+		FBD3B91729155E9400CD03AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD3B91629155E9400CD03AE /* AppDelegate.swift */; };
+		FBD3B91929155E9400CD03AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD3B91829155E9400CD03AE /* SceneDelegate.swift */; };
+		FBD3B91B29155E9400CD03AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD3B91A29155E9400CD03AE /* ViewController.swift */; };
+		FBD3B91E29155E9400CD03AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD3B91C29155E9400CD03AE /* Main.storyboard */; };
+		FBD3B92029155E9500CD03AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD3B91F29155E9500CD03AE /* Assets.xcassets */; };
+		FBD3B92329155E9500CD03AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD3B92129155E9500CD03AE /* LaunchScreen.storyboard */; };
+		FBD3B92E29155E9500CD03AE /* ProyectoParcial3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD3B92D29155E9500CD03AE /* ProyectoParcial3Tests.swift */; };
+		FBD3B93829155E9500CD03AE /* ProyectoParcial3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD3B93729155E9500CD03AE /* ProyectoParcial3UITests.swift */; };
+		FBD3B93A29155E9500CD03AE /* ProyectoParcial3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD3B93929155E9500CD03AE /* ProyectoParcial3UITestsLaunchTests.swift */; };
+		FBD3B947291561FD00CD03AE /* CeldaMateriaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD3B946291561FD00CD03AE /* CeldaMateriaController.swift */; };
+		FBD3B9492915679B00CD03AE /* Materia.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD3B9482915679B00CD03AE /* Materia.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBD3B92A29155E9500CD03AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBD3B90B29155E9400CD03AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBD3B91229155E9400CD03AE;
+			remoteInfo = ProyectoParcial3;
+		};
+		FBD3B93429155E9500CD03AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBD3B90B29155E9400CD03AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBD3B91229155E9400CD03AE;
+			remoteInfo = ProyectoParcial3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB2850F42923E5B00039FA5E /* Montserrat-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		FB2850F52923E5B00039FA5E /* Montserrat-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		FB2850F82923E5C00039FA5E /* MADE TOMMY Black_PERSONAL USE.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MADE TOMMY Black_PERSONAL USE.otf"; sourceTree = "<group>"; };
+		FB2850F92923E5C00039FA5E /* MADE TOMMY ExtraBold Outline_PERSONAL USE.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MADE TOMMY ExtraBold Outline_PERSONAL USE.otf"; sourceTree = "<group>"; };
+		FB2850FA2923E5C00039FA5E /* MADE TOMMY Thin Outline_PERSONAL USE.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MADE TOMMY Thin Outline_PERSONAL USE.otf"; sourceTree = "<group>"; };
+		FB2850FB2923E5C00039FA5E /* MADE TOMMY Bold_PERSONAL USE.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MADE TOMMY Bold_PERSONAL USE.otf"; sourceTree = "<group>"; };
+		FB2850FC2923E5C00039FA5E /* MADE TOMMY Thin_PERSONAL USE.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MADE TOMMY Thin_PERSONAL USE.otf"; sourceTree = "<group>"; };
+		FB2850FD2923E5C00039FA5E /* MADE TOMMY Medium_PERSONAL USE.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MADE TOMMY Medium_PERSONAL USE.otf"; sourceTree = "<group>"; };
+		FB2850FE2923E5C00039FA5E /* MADE TOMMY ExtraBold_PERSONAL USE.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MADE TOMMY ExtraBold_PERSONAL USE.otf"; sourceTree = "<group>"; };
+		FB2850FF2923E5C00039FA5E /* MADE TOMMY Medium Outline_PERSONAL USE.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MADE TOMMY Medium Outline_PERSONAL USE.otf"; sourceTree = "<group>"; };
+		FB2851002923E5C00039FA5E /* MADE TOMMY Black Outline_PERSONAL USE.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MADE TOMMY Black Outline_PERSONAL USE.otf"; sourceTree = "<group>"; };
+		FB2851012923E5C00039FA5E /* MADE TOMMY Bold Outline_PERSONAL USE.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MADE TOMMY Bold Outline_PERSONAL USE.otf"; sourceTree = "<group>"; };
+		FB2851022923E5C00039FA5E /* MADE TOMMY Regular_PERSONAL USE.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MADE TOMMY Regular_PERSONAL USE.otf"; sourceTree = "<group>"; };
+		FB2851032923E5C00039FA5E /* MADE TOMMY Light Outline_PERSONAL USE.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MADE TOMMY Light Outline_PERSONAL USE.otf"; sourceTree = "<group>"; };
+		FB2851042923E5C00039FA5E /* MADE TOMMY Regular Outline_PERSONAL USE.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MADE TOMMY Regular Outline_PERSONAL USE.otf"; sourceTree = "<group>"; };
+		FB2851052923E5C00039FA5E /* MADE TOMMY Light_PERSONAL USE.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MADE TOMMY Light_PERSONAL USE.otf"; sourceTree = "<group>"; };
+		FB3827E6292527A600CF2C6A /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		FB3827E7292527A600CF2C6A /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		FB3827E8292527A600CF2C6A /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		FB3827E9292527A600CF2C6A /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		FB3827EA292527A600CF2C6A /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		FB3827EB292527A600CF2C6A /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		FB3827EC292527A600CF2C6A /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		FB3827ED292527A600CF2C6A /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		FB3827EE292527A600CF2C6A /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		FB3827EF292527A600CF2C6A /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		FB3827F0292527A600CF2C6A /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		FB3827F1292527A600CF2C6A /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		FB3827F2292527A600CF2C6A /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		FB3827F3292527A600CF2C6A /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		FB3827F4292527A600CF2C6A /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		FB3827F5292527A600CF2C6A /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		FB3827F6292527A600CF2C6A /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		FB3827F7292527A600CF2C6A /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		FB722289291A9CAC00392E50 /* Comida.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comida.swift; sourceTree = "<group>"; };
+		FB72228B291A9CBF00392E50 /* CeldaComidaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaComidaController.swift; sourceTree = "<group>"; };
+		FB72228D291A9F0000392E50 /* ComidaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComidaController.swift; sourceTree = "<group>"; };
+		FB72228F291AA79600392E50 /* Pago.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pago.swift; sourceTree = "<group>"; };
+		FB722291291AA7A200392E50 /* PagoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagoController.swift; sourceTree = "<group>"; };
+		FB722293291AA7BC00392E50 /* CeldaPagoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaPagoController.swift; sourceTree = "<group>"; };
+		FB722295291AB7B700392E50 /* DetallesMateria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesMateria.swift; sourceTree = "<group>"; };
+		FB7522A82919989500360061 /* Alumno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alumno.swift; sourceTree = "<group>"; };
+		FB7619F829195B34002AE06B /* Contacto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacto.swift; sourceTree = "<group>"; };
+		FB7619FA29195D61002AE06B /* ContactoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactoController.swift; sourceTree = "<group>"; };
+		FBD3B91329155E9400CD03AE /* ProyectoParcial3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoParcial3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD3B91629155E9400CD03AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBD3B91829155E9400CD03AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FBD3B91A29155E9400CD03AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBD3B91D29155E9400CD03AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBD3B91F29155E9500CD03AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBD3B92229155E9500CD03AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBD3B92429155E9500CD03AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBD3B92929155E9500CD03AE /* ProyectoParcial3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoParcial3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD3B92D29155E9500CD03AE /* ProyectoParcial3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoParcial3Tests.swift; sourceTree = "<group>"; };
+		FBD3B93329155E9500CD03AE /* ProyectoParcial3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoParcial3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD3B93729155E9500CD03AE /* ProyectoParcial3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoParcial3UITests.swift; sourceTree = "<group>"; };
+		FBD3B93929155E9500CD03AE /* ProyectoParcial3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoParcial3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FBD3B946291561FD00CD03AE /* CeldaMateriaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaMateriaController.swift; sourceTree = "<group>"; };
+		FBD3B9482915679B00CD03AE /* Materia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Materia.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBD3B91029155E9400CD03AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBD3B92629155E9500CD03AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBD3B93029155E9500CD03AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBD3B90A29155E9400CD03AE = {
+			isa = PBXGroup;
+			children = (
+				FBD3B91529155E9400CD03AE /* ProyectoParcial3 */,
+				FBD3B92C29155E9500CD03AE /* ProyectoParcial3Tests */,
+				FBD3B93629155E9500CD03AE /* ProyectoParcial3UITests */,
+				FBD3B91429155E9400CD03AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBD3B91429155E9400CD03AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBD3B91329155E9400CD03AE /* ProyectoParcial3.app */,
+				FBD3B92929155E9500CD03AE /* ProyectoParcial3Tests.xctest */,
+				FBD3B93329155E9500CD03AE /* ProyectoParcial3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBD3B91529155E9400CD03AE /* ProyectoParcial3 */ = {
+			isa = PBXGroup;
+			children = (
+				FBD3B91629155E9400CD03AE /* AppDelegate.swift */,
+				FB7619F829195B34002AE06B /* Contacto.swift */,
+				FBD3B91829155E9400CD03AE /* SceneDelegate.swift */,
+				FBD3B91A29155E9400CD03AE /* ViewController.swift */,
+				FBD3B91C29155E9400CD03AE /* Main.storyboard */,
+				FBD3B91F29155E9500CD03AE /* Assets.xcassets */,
+				FB2851002923E5C00039FA5E /* MADE TOMMY Black Outline_PERSONAL USE.otf */,
+				FB2850F82923E5C00039FA5E /* MADE TOMMY Black_PERSONAL USE.otf */,
+				FB2851012923E5C00039FA5E /* MADE TOMMY Bold Outline_PERSONAL USE.otf */,
+				FB2850FB2923E5C00039FA5E /* MADE TOMMY Bold_PERSONAL USE.otf */,
+				FB2850F92923E5C00039FA5E /* MADE TOMMY ExtraBold Outline_PERSONAL USE.otf */,
+				FB2850FE2923E5C00039FA5E /* MADE TOMMY ExtraBold_PERSONAL USE.otf */,
+				FB2851032923E5C00039FA5E /* MADE TOMMY Light Outline_PERSONAL USE.otf */,
+				FB2851052923E5C00039FA5E /* MADE TOMMY Light_PERSONAL USE.otf */,
+				FB2850FF2923E5C00039FA5E /* MADE TOMMY Medium Outline_PERSONAL USE.otf */,
+				FB2850FD2923E5C00039FA5E /* MADE TOMMY Medium_PERSONAL USE.otf */,
+				FB2851042923E5C00039FA5E /* MADE TOMMY Regular Outline_PERSONAL USE.otf */,
+				FB2851022923E5C00039FA5E /* MADE TOMMY Regular_PERSONAL USE.otf */,
+				FB2850FA2923E5C00039FA5E /* MADE TOMMY Thin Outline_PERSONAL USE.otf */,
+				FB2850FC2923E5C00039FA5E /* MADE TOMMY Thin_PERSONAL USE.otf */,
+				FBD3B92129155E9500CD03AE /* LaunchScreen.storyboard */,
+				FBD3B92429155E9500CD03AE /* Info.plist */,
+				FBD3B946291561FD00CD03AE /* CeldaMateriaController.swift */,
+				FB3827EA292527A600CF2C6A /* Montserrat-Black.ttf */,
+				FB3827F6292527A600CF2C6A /* Montserrat-BlackItalic.ttf */,
+				FB3827EF292527A600CF2C6A /* Montserrat-Bold.ttf */,
+				FB3827ED292527A600CF2C6A /* Montserrat-BoldItalic.ttf */,
+				FB3827F4292527A600CF2C6A /* Montserrat-ExtraBold.ttf */,
+				FB3827EE292527A600CF2C6A /* Montserrat-ExtraBoldItalic.ttf */,
+				FB3827E6292527A600CF2C6A /* Montserrat-ExtraLight.ttf */,
+				FB3827EB292527A600CF2C6A /* Montserrat-ExtraLightItalic.ttf */,
+				FB3827F7292527A600CF2C6A /* Montserrat-Italic.ttf */,
+				FB3827F3292527A600CF2C6A /* Montserrat-Light.ttf */,
+				FB3827E8292527A600CF2C6A /* Montserrat-LightItalic.ttf */,
+				FB3827F5292527A600CF2C6A /* Montserrat-Medium.ttf */,
+				FB3827F0292527A600CF2C6A /* Montserrat-MediumItalic.ttf */,
+				FB3827E9292527A600CF2C6A /* Montserrat-Regular.ttf */,
+				FB3827EC292527A600CF2C6A /* Montserrat-SemiBold.ttf */,
+				FB3827E7292527A600CF2C6A /* Montserrat-SemiBoldItalic.ttf */,
+				FB3827F2292527A600CF2C6A /* Montserrat-Thin.ttf */,
+				FB3827F1292527A600CF2C6A /* Montserrat-ThinItalic.ttf */,
+				FB2850F42923E5B00039FA5E /* Montserrat-Italic-VariableFont_wght.ttf */,
+				FB2850F52923E5B00039FA5E /* Montserrat-VariableFont_wght.ttf */,
+				FBD3B9482915679B00CD03AE /* Materia.swift */,
+				FB7619FA29195D61002AE06B /* ContactoController.swift */,
+				FB7522A82919989500360061 /* Alumno.swift */,
+				FB722289291A9CAC00392E50 /* Comida.swift */,
+				FB72228B291A9CBF00392E50 /* CeldaComidaController.swift */,
+				FB72228D291A9F0000392E50 /* ComidaController.swift */,
+				FB72228F291AA79600392E50 /* Pago.swift */,
+				FB722291291AA7A200392E50 /* PagoController.swift */,
+				FB722293291AA7BC00392E50 /* CeldaPagoController.swift */,
+				FB722295291AB7B700392E50 /* DetallesMateria.swift */,
+			);
+			path = ProyectoParcial3;
+			sourceTree = "<group>";
+		};
+		FBD3B92C29155E9500CD03AE /* ProyectoParcial3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FBD3B92D29155E9500CD03AE /* ProyectoParcial3Tests.swift */,
+			);
+			path = ProyectoParcial3Tests;
+			sourceTree = "<group>";
+		};
+		FBD3B93629155E9500CD03AE /* ProyectoParcial3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBD3B93729155E9500CD03AE /* ProyectoParcial3UITests.swift */,
+				FBD3B93929155E9500CD03AE /* ProyectoParcial3UITestsLaunchTests.swift */,
+			);
+			path = ProyectoParcial3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBD3B91229155E9400CD03AE /* ProyectoParcial3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBD3B93D29155E9500CD03AE /* Build configuration list for PBXNativeTarget "ProyectoParcial3" */;
+			buildPhases = (
+				FBD3B90F29155E9400CD03AE /* Sources */,
+				FBD3B91029155E9400CD03AE /* Frameworks */,
+				FBD3B91129155E9400CD03AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProyectoParcial3;
+			productName = ProyectoParcial3;
+			productReference = FBD3B91329155E9400CD03AE /* ProyectoParcial3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBD3B92829155E9500CD03AE /* ProyectoParcial3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBD3B94029155E9500CD03AE /* Build configuration list for PBXNativeTarget "ProyectoParcial3Tests" */;
+			buildPhases = (
+				FBD3B92529155E9500CD03AE /* Sources */,
+				FBD3B92629155E9500CD03AE /* Frameworks */,
+				FBD3B92729155E9500CD03AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBD3B92B29155E9500CD03AE /* PBXTargetDependency */,
+			);
+			name = ProyectoParcial3Tests;
+			productName = ProyectoParcial3Tests;
+			productReference = FBD3B92929155E9500CD03AE /* ProyectoParcial3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBD3B93229155E9500CD03AE /* ProyectoParcial3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBD3B94329155E9500CD03AE /* Build configuration list for PBXNativeTarget "ProyectoParcial3UITests" */;
+			buildPhases = (
+				FBD3B92F29155E9500CD03AE /* Sources */,
+				FBD3B93029155E9500CD03AE /* Frameworks */,
+				FBD3B93129155E9500CD03AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBD3B93529155E9500CD03AE /* PBXTargetDependency */,
+			);
+			name = ProyectoParcial3UITests;
+			productName = ProyectoParcial3UITests;
+			productReference = FBD3B93329155E9500CD03AE /* ProyectoParcial3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBD3B90B29155E9400CD03AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					FBD3B91229155E9400CD03AE = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					FBD3B92829155E9500CD03AE = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = FBD3B91229155E9400CD03AE;
+					};
+					FBD3B93229155E9500CD03AE = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = FBD3B91229155E9400CD03AE;
+					};
+				};
+			};
+			buildConfigurationList = FBD3B90E29155E9400CD03AE /* Build configuration list for PBXProject "ProyectoParcial3" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBD3B90A29155E9400CD03AE;
+			productRefGroup = FBD3B91429155E9400CD03AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBD3B91229155E9400CD03AE /* ProyectoParcial3 */,
+				FBD3B92829155E9500CD03AE /* ProyectoParcial3Tests */,
+				FBD3B93229155E9500CD03AE /* ProyectoParcial3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBD3B91129155E9400CD03AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB3828082925361F00CF2C6A /* Montserrat-Regular.ttf in Resources */,
+				FB28510A2923E5C00039FA5E /* MADE TOMMY Thin_PERSONAL USE.otf in Resources */,
+				FB3827F82925361A00CF2C6A /* Montserrat-Black.ttf in Resources */,
+				FB3828092925361F00CF2C6A /* Montserrat-Italic.ttf in Resources */,
+				FB3828062925361F00CF2C6A /* Montserrat-Light.ttf in Resources */,
+				FB2851122923E5C00039FA5E /* MADE TOMMY Regular Outline_PERSONAL USE.otf in Resources */,
+				FB3827F92925361F00CF2C6A /* Montserrat-SemiBold.ttf in Resources */,
+				FB2851102923E5C00039FA5E /* MADE TOMMY Regular_PERSONAL USE.otf in Resources */,
+				FB2850F62923E5B00039FA5E /* Montserrat-Italic-VariableFont_wght.ttf in Resources */,
+				FB28510C2923E5C00039FA5E /* MADE TOMMY ExtraBold_PERSONAL USE.otf in Resources */,
+				FB3828052925361F00CF2C6A /* Montserrat-Thin.ttf in Resources */,
+				FB2851072923E5C00039FA5E /* MADE TOMMY ExtraBold Outline_PERSONAL USE.otf in Resources */,
+				FB3828042925361F00CF2C6A /* Montserrat-BoldItalic.ttf in Resources */,
+				FB3827FF2925361F00CF2C6A /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				FB3827FC2925361F00CF2C6A /* Montserrat-LightItalic.ttf in Resources */,
+				FB3828022925361F00CF2C6A /* Montserrat-MediumItalic.ttf in Resources */,
+				FB28510B2923E5C00039FA5E /* MADE TOMMY Medium_PERSONAL USE.otf in Resources */,
+				FB3828012925361F00CF2C6A /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				FBD3B92329155E9500CD03AE /* LaunchScreen.storyboard in Resources */,
+				FBD3B92029155E9500CD03AE /* Assets.xcassets in Resources */,
+				FBD3B91E29155E9400CD03AE /* Main.storyboard in Resources */,
+				FB28510F2923E5C00039FA5E /* MADE TOMMY Bold Outline_PERSONAL USE.otf in Resources */,
+				FB2851062923E5C00039FA5E /* MADE TOMMY Black_PERSONAL USE.otf in Resources */,
+				FB2851112923E5C00039FA5E /* MADE TOMMY Light Outline_PERSONAL USE.otf in Resources */,
+				FB2850F72923E5B00039FA5E /* Montserrat-VariableFont_wght.ttf in Resources */,
+				FB28510E2923E5C00039FA5E /* MADE TOMMY Black Outline_PERSONAL USE.otf in Resources */,
+				FB2851132923E5C00039FA5E /* MADE TOMMY Light_PERSONAL USE.otf in Resources */,
+				FB2851092923E5C00039FA5E /* MADE TOMMY Bold_PERSONAL USE.otf in Resources */,
+				FB3827FD2925361F00CF2C6A /* Montserrat-ExtraBold.ttf in Resources */,
+				FB3828002925361F00CF2C6A /* Montserrat-ThinItalic.ttf in Resources */,
+				FB3828072925361F00CF2C6A /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				FB3827FE2925361F00CF2C6A /* Montserrat-ExtraLight.ttf in Resources */,
+				FB2851082923E5C00039FA5E /* MADE TOMMY Thin Outline_PERSONAL USE.otf in Resources */,
+				FB3827FA2925361F00CF2C6A /* Montserrat-Bold.ttf in Resources */,
+				FB3827FB2925361F00CF2C6A /* Montserrat-Medium.ttf in Resources */,
+				FB28510D2923E5C00039FA5E /* MADE TOMMY Medium Outline_PERSONAL USE.otf in Resources */,
+				FB3828032925361F00CF2C6A /* Montserrat-BlackItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBD3B92729155E9500CD03AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBD3B93129155E9500CD03AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBD3B90F29155E9400CD03AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD3B91B29155E9400CD03AE /* ViewController.swift in Sources */,
+				FBD3B91729155E9400CD03AE /* AppDelegate.swift in Sources */,
+				FB722292291AA7A200392E50 /* PagoController.swift in Sources */,
+				FB7619F929195B34002AE06B /* Contacto.swift in Sources */,
+				FB7522A92919989500360061 /* Alumno.swift in Sources */,
+				FB72228C291A9CBF00392E50 /* CeldaComidaController.swift in Sources */,
+				FB7619FB29195D61002AE06B /* ContactoController.swift in Sources */,
+				FB72228E291A9F0000392E50 /* ComidaController.swift in Sources */,
+				FB722294291AA7BC00392E50 /* CeldaPagoController.swift in Sources */,
+				FBD3B9492915679B00CD03AE /* Materia.swift in Sources */,
+				FB722290291AA79600392E50 /* Pago.swift in Sources */,
+				FBD3B91929155E9400CD03AE /* SceneDelegate.swift in Sources */,
+				FBD3B947291561FD00CD03AE /* CeldaMateriaController.swift in Sources */,
+				FB72228A291A9CAC00392E50 /* Comida.swift in Sources */,
+				FB722296291AB7B700392E50 /* DetallesMateria.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBD3B92529155E9500CD03AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD3B92E29155E9500CD03AE /* ProyectoParcial3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBD3B92F29155E9500CD03AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD3B93A29155E9500CD03AE /* ProyectoParcial3UITestsLaunchTests.swift in Sources */,
+				FBD3B93829155E9500CD03AE /* ProyectoParcial3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBD3B92B29155E9500CD03AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBD3B91229155E9400CD03AE /* ProyectoParcial3 */;
+			targetProxy = FBD3B92A29155E9500CD03AE /* PBXContainerItemProxy */;
+		};
+		FBD3B93529155E9500CD03AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBD3B91229155E9400CD03AE /* ProyectoParcial3 */;
+			targetProxy = FBD3B93429155E9500CD03AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBD3B91C29155E9400CD03AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBD3B91D29155E9400CD03AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBD3B92129155E9500CD03AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBD3B92229155E9500CD03AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBD3B93B29155E9500CD03AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBD3B93C29155E9500CD03AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBD3B93E29155E9500CD03AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ProyectoParcial3/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ulsa.ProyectoParcial3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBD3B93F29155E9500CD03AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ProyectoParcial3/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ulsa.ProyectoParcial3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FBD3B94129155E9500CD03AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ulsa.ProyectoParcial3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProyectoParcial3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProyectoParcial3";
+			};
+			name = Debug;
+		};
+		FBD3B94229155E9500CD03AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ulsa.ProyectoParcial3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProyectoParcial3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProyectoParcial3";
+			};
+			name = Release;
+		};
+		FBD3B94429155E9500CD03AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ulsa.ProyectoParcial3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProyectoParcial3;
+			};
+			name = Debug;
+		};
+		FBD3B94529155E9500CD03AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ulsa.ProyectoParcial3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProyectoParcial3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBD3B90E29155E9400CD03AE /* Build configuration list for PBXProject "ProyectoParcial3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD3B93B29155E9500CD03AE /* Debug */,
+				FBD3B93C29155E9500CD03AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBD3B93D29155E9500CD03AE /* Build configuration list for PBXNativeTarget "ProyectoParcial3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD3B93E29155E9500CD03AE /* Debug */,
+				FBD3B93F29155E9500CD03AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBD3B94029155E9500CD03AE /* Build configuration list for PBXNativeTarget "ProyectoParcial3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD3B94129155E9500CD03AE /* Debug */,
+				FBD3B94229155E9500CD03AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBD3B94329155E9500CD03AE /* Build configuration list for PBXNativeTarget "ProyectoParcial3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD3B94429155E9500CD03AE /* Debug */,
+				FBD3B94529155E9500CD03AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBD3B90B29155E9400CD03AE /* Project object */;
+}
