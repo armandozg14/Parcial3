@@ -61,11 +61,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 lblTel1.text = alumno?.tel1
                 lblTel2.text = alumno?.tel2
         
-        materias.append(Materia(materia:"Fotografía I",maestro: "Heberto", horario: "8:00 - 10:00", imagen: "camara", faltas: "0", check: "check2", rate1: "enojado2", rate2: "triste2", rate3: "maso2", rate4: "feli2", rate5: "feliz2", evaluacion: 0))
-        materias.append(Materia(materia:"Biología",maestro: "Paulina", horario: "9:00 - 11:00", imagen: "biologia", faltas: "0", check: "check2",  rate1: "enojado2", rate2: "triste2", rate3: "maso2", rate4: "feli2", rate5: "feliz2",evaluacion: 0 ))
-        materias.append(Materia(materia:"Diseño Gráfico II",maestro: "Azalea", horario: "11:00 - 12:00", imagen: "diseño", faltas: "3", check: "check2",  rate1: "enojado2", rate2: "triste2", rate3: "maso2", rate4: "feli2", rate5: "feliz2", evaluacion: 0))
-        materias.append(Materia(materia:"Español",maestro: "Odalys", horario: "12:00 - 14:00", imagen: "español", faltas: "1", check: "check2",  rate1: "enojado2", rate2: "triste2", rate3: "maso2", rate4: "feli2", rate5: "feliz2", evaluacion: 0))
-        materias.append(Materia(materia:"Química",maestro: "Marcela", horario: "2:00 - 4:00", imagen: "QUIMICA", faltas: "0", check: "check2",  rate1: "enojado2", rate2: "triste2", rate3: "maso2", rate4: "feli2", rate5: "feliz2", evaluacion: 0))
+        materias.append(Materia(materia:"Fotografía I",maestro: "Heberto", horario: "Lu, Mi, Vi   8:00 - 10:00", imagen: "camara", faltas: "0", check: "check2", rate1: "enojado2", rate2: "triste2", rate3: "maso2", rate4: "feli2", rate5: "feliz2", evaluacion: 0))
+        materias.append(Materia(materia:"Biología",maestro: "Paulina", horario: "Lu, Vi   9:00 - 11:00", imagen: "biologia", faltas: "0", check: "check2",  rate1: "enojado2", rate2: "triste2", rate3: "maso2", rate4: "feli2", rate5: "feliz2",evaluacion: 0 ))
+        materias.append(Materia(materia:"Diseño Gráfico II",maestro: "Azalea", horario: "Ma, Mi, Ju   11:00 - 12:00", imagen: "diseño", faltas: "3", check: "check2",  rate1: "enojado2", rate2: "triste2", rate3: "maso2", rate4: "feli2", rate5: "feliz2", evaluacion: 0))
+        materias.append(Materia(materia:"Español",maestro: "Odalys", horario: "Ju, Vi   12:00 - 14:00", imagen: "español", faltas: "1", check: "check2",  rate1: "enojado2", rate2: "triste2", rate3: "maso2", rate4: "feli2", rate5: "feliz2", evaluacion: 0))
+        materias.append(Materia(materia:"Química",maestro: "Marcela", horario: "Lu, ju   2:00 - 4:00", imagen: "QUIMICA", faltas: "0", check: "check2",  rate1: "enojado2", rate2: "triste2", rate3: "maso2", rate4: "feli2", rate5: "feliz2", evaluacion: 0))
         
     }
     
