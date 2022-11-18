@@ -24,7 +24,7 @@ class ComidaController :  UIViewController, UITableViewDelegate, UITableViewData
                     celda.lblComida.text = comidas[indexPath.row].comida
                     celda.lblPrecio.text = comidas[indexPath.row].precio
                     celda.imgImagen.image = UIImage(named: comidas[indexPath.row].imagen)
-                    celda.imgImagen.layer.cornerRadius = 34
+                    celda.imgImagen.layer.cornerRadius = 30
                     celda.imgImagen.clipsToBounds = true
         
                 return celda

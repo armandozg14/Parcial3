@@ -81,7 +81,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             destino.materia=materias[tvMateria.indexPathForSelectedRow!.row]
             destino.callBackActualizarAsistencia = actualizarAsistencia
         }
-        
         }
     
     func actualizarContacto (alumno: Alumno) {
